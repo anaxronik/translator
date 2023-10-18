@@ -1,0 +1,26 @@
+.app {
+  padding: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  max-width: 100%;
+
+  td: {
+  }
+}
+
+.cell {
+  border: 1px solid silver;
+  word-wrap: break-word;
+  vertical-align: top;
+}
+
+.first {
+  // max-width: 200px;
+  padding: 12px;
+}
+
+.textarea {
+  height: 100%;
+}
