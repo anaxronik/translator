@@ -29,9 +29,13 @@ const App = observer(() => {
                     {key}
                   </td>
                   {store.files.map((file, fileIdx) => {
+                    const value = file[key];
                     return (
                       <td
-                        className={styles.cell}
+                        className={classNames(
+                          styles.cell,
+                          value ? null : styles.empty
+                        )}
                         key={fileIdx}
                         style={{
                           maxWidth: cellWidth + "px",
